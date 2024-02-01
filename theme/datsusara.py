@@ -1,50 +1,42 @@
-from powerline_shell.themes.default import DefaultColor
+from powerline_shell.themes.washed import DefaultColor
 
 
 class Color(DefaultColor):
-    USERNAME_FG = 28
-    USERNAME_BG = 250
-    USERNAME_ROOT_BG = 209
+    HOME_SPECIAL_DISPLAY = True
 
-    HOSTNAME_FG = 16
-    HOSTNAME_BG = 248
+    USERNAME_FG = 34
+    USERNAME_BG = 17
+    USERNAME_ROOT_BG = 124
 
-    HOME_SPECIAL_DISPLAY = False
-    PATH_BG = 15
-    PATH_FG = 8
-    CWD_FG = 8
-    SEPARATOR_FG = 251
+    HOSTNAME_FG = 255
+    HOSTNAME_BG = 89
+
+    PATH_BG = 53
+    PATH_FG = 255
+    CWD_FG = 255
+    SEPARATOR_FG = 232
 
     READONLY_BG = 209
     READONLY_FG = 15
 
-    REPO_CLEAN_BG = 150  # pale green
+    REPO_CLEAN_BG = 22
     REPO_CLEAN_FG = 235
-    REPO_DIRTY_BG = 203  # pale red
-    REPO_DIRTY_FG = 15
+    REPO_DIRTY_BG = 52
+    REPO_DIRTY_FG = 231
 
-    JOBS_FG = 14
+    JOBS_FG = 255
     JOBS_BG = 8
 
-    CMD_PASSED_BG = 7
-    CMD_PASSED_FG = 8
-    CMD_FAILED_BG = 9
-    CMD_FAILED_FG = 15
+    CMD_PASSED_BG = 64
+    CMD_PASSED_FG = 255
+    CMD_FAILED_BG = 52
+    CMD_FAILED_FG = 255
 
-    SVN_CHANGES_BG = REPO_DIRTY_BG
-    SVN_CHANGES_FG = REPO_DIRTY_FG
+    TIME_FG = 34
+    TIME_BG = 16
 
-    VIRTUAL_ENV_BG = 150
-    VIRTUAL_ENV_FG = 0
+    BATTERY_LOW_BG = 124
+    BATTERY_LOW_FG = 231
 
-    AWS_PROFILE_FG = 0
-    AWS_PROFILE_BG = 7
-
-    TIME_FG = 8
-    TIME_BG = 7
-
-    BATTERY_LOW_BG = 252
-    BATTERY_LOW_FG = 124
-
-    BATTERY_NORMAL_BG = 252
-    BATTERY_NORMAL_FG = 24
+    BATTERY_NORMAL_BG = 238
+    BATTERY_NORMAL_FG = 255
