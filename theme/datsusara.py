@@ -8,8 +8,8 @@ class Color(DefaultColor):
     USERNAME_BG = 17
     USERNAME_ROOT_BG = 124
 
-    HOSTNAME_FG = 255
-    HOSTNAME_BG = 89
+    HOSTNAME_FG = 34
+    HOSTNAME_BG = 16
 
     PATH_BG = 53
     PATH_FG = 255
